@@ -6,6 +6,8 @@
 import os
 import logging
 import random
+import nest_asyncio
+nest_asyncio.apply()
 from telegram import Update
 from telegram.ext import (
     Application,
